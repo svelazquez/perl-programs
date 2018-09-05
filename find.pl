@@ -1,6 +1,6 @@
 #!/usr/bin/perl -w
 #searches for files in dir list based on reg ex pattern
-#if file name matches, print file name
+#if file name matches, print the file name
 #else search for same reg ex within the files
 
 die "Usage: ["perlRegexpPattern"] ["listOfFiles"]\n" if ($#ARGV < 1 || $#ARGV > 2);
